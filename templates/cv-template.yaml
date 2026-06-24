@@ -1,0 +1,79 @@
+cv:
+  name: "Jane Smith"
+  headline: Senior Software Engineer
+  location: "San Francisco, CA"
+  email: "jane.smith@example.com"
+  phone: "+1 415 555 0123"
+  photo: ""
+  sections:
+    summary:
+      - "Results-driven Senior Software Engineer with 8+ years of experience designing
+        and building scalable web applications. Proven track record of leading
+        engineering teams and delivering high-impact products."
+    experience:
+      - company: "TechCorp Inc."
+        position: Senior Software Engineer
+        start_date: "2021-03"
+        end_date: present
+        location: "San Francisco, CA"
+        highlights:
+          - "Led a team of 5 engineers to redesign the core platform, resulting in
+            40% improvement in performance"
+          - "Architected and implemented a microservices-based system handling 1M+
+            daily requests"
+          - "Introduced CI/CD pipelines that reduced deployment time from 2 hours to
+            15 minutes"
+          - "Mentored 3 junior engineers through structured code reviews and pair
+            programming sessions"
+      - company: "StartupXYZ"
+        position: Full Stack Developer
+        start_date: "2018-06"
+        end_date: "2021-02"
+        location: "Oakland, CA"
+        highlights:
+          - "Built the MVP that secured $5M in Series A funding"
+          - "Developed RESTful APIs using Node.js, Express, and PostgreSQL"
+          - "Implemented real-time features using WebSockets and Redis pub/sub"
+          - "Reduced frontend bundle size by 60% through code splitting and lazy
+            loading"
+      - company: "WebAgency Co."
+        position: Junior Developer
+        start_date: "2016-01"
+        end_date: "2018-05"
+        location: "Los Angeles, CA"
+        highlights:
+          - "Developed responsive web applications for 20+ clients using React and
+            Angular"
+          - "Created automated testing suite achieving 90% code coverage"
+          - "Contributed to open-source projects used by 5,000+ developers"
+    education:
+      - institution: "University of California, Berkeley"
+        area: "Computer Science"
+        degree: BSc
+        date: "2015-12"
+        location: "Berkeley, CA"
+    skills:
+      - label: Frontend
+        details: "React, TypeScript, Next.js, Tailwind CSS, Redux, GraphQL"
+      - label: Backend
+        details: "Node.js, Python, Go, PostgreSQL, MongoDB, Redis"
+      - label: DevOps
+        details: "AWS, Docker, Kubernetes, Terraform, CI/CD, GitHub Actions"
+      - label: Languages
+        details: "English (Native), Spanish (Fluent)"
+    extra_curricular_activities:
+      - name: "Tech Conference Speaker"
+        date: "2024-06"
+        highlights:
+          - 'Presented "Scaling React Applications" at ReactConf 2024'
+    hobbies:
+      - bullet: "Hiking and trail running in the Bay Area"
+      - bullet: "Playing jazz guitar in a local band"
+      - bullet: "Volunteering as a coding tutor for underserved youth"
+  social_networks:
+    - network: GitHub
+      username: janesmith
+    - network: LinkedIn
+      username: jane-smith-dev
+    - network: Twitter
+      username: "@jane_codes"

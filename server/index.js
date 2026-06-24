@@ -132,6 +132,19 @@ app.post('/api/upload-photo', upload.single('photo'), (req, res) => {
   }
 });
 
+const templatesDir = path.resolve(__dirname, '..', 'templates');
+
+app.get('/api/download-template', (_req, res) => {
+  const filepath = path.join(templatesDir, 'cv-template.yaml');
+  if (!fs.existsSync(filepath)) {
+    return res.status(404).json({ error: 'Template file not found' });
+  }
+  const content = fs.readFileSync(filepath, 'utf-8');
+  res.setHeader('Content-Type', 'application/x-yaml');
+  res.setHeader('Content-Disposition', 'attachment; filename="cv-template.yaml"');
+  res.send(content);
+});
+
 app.use('/uploads', express.static(uploadsDir));
 
 app.listen(PORT, () => {

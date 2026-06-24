@@ -31,7 +31,7 @@ export function Preview({ data, loading }: PreviewProps) {
         <span className="text-sm font-medium text-gray-600">PDF Preview</span>
         <PDFDownloadLink
           document={<CVTemplate data={data} />}
-          fileName="cv.pdf"
+          fileName={`${data.cv.name.replace(/\s+/g, '_')}_${new Date().getFullYear()}_Resume.pdf`}
           className="flex items-center gap-1.5 rounded-lg px-3 py-1.5 text-xs font-medium bg-blue-500 text-white hover:bg-blue-600 transition-colors"
         >
           {({ loading: pdfLoading }) => (

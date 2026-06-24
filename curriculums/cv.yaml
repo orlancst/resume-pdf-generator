@@ -16,7 +16,7 @@ cv:
         position: Frontend / Dashboard Developer
         start_date: 2026-02
         end_date: present
-        location: null
+        location: Remote (Barranquilla, Colombia)
         highlights:
           - >-
             Developed and optimized interactive web dashboards for electronic invoicing software, significantly
@@ -29,7 +29,7 @@ cv:
             metrics and financial reports.
       - company: Virtual-Tec
         position: Mobile Developer
-        location: Barranquilla, Colombia
+        location: Remote (Barranquilla, Colombia)
         start_date: 2025-01
         end_date: 2026-02
         highlights:
@@ -114,7 +114,7 @@ cv:
       - label: Web Development
         details: WordPress, React, JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, PHP, Node.js, Astro
       - label: Tools & Platforms
-        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL
+        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL, Claude Code
       - label: Languages
         details: Spanish (Native), English (Professional)
     extra_curricular_activities:
@@ -123,7 +123,9 @@ cv:
         highlights:
           - Translated technical documents and medical reports for various clients.
     hobbies:
-      - bullet: I enjoy going to gym, listening to music and podcasts, programming, and playing video games.
+      - bullet: >-
+          I like istening to music and podcasts, programming, and playing video games. I also sometimes go to gym during
+          the night.
   photo: /uploads/photo-1782271022700.jpeg
   social_networks:
     - network: GitHub

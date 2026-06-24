@@ -18,13 +18,12 @@ const styles = StyleSheet.create({
     color: c.text,
     fontSize: 9,
     lineHeight: 1.4,
-    paddingTop: 10,
   },
   sidebar: {
     width: '35%',
     backgroundColor: c.primary,
     padding: 24,
-    paddingTop: 18,
+    paddingTop: 28,
   },
   sidebarContent: {
     flex: 1,
@@ -32,7 +31,7 @@ const styles = StyleSheet.create({
   main: {
     width: '65%',
     padding: 28,
-    paddingTop: 22,
+    paddingTop: 32,
     paddingBottom: 48,
   },
   photo: {
@@ -126,6 +125,9 @@ const styles = StyleSheet.create({
     backgroundColor: c.border,
     marginBottom: 10,
   },
+  sectionWrapper: {
+    paddingTop: 14,
+  },
   sectionTitle: {
     fontSize: 9.5,
     fontWeight: 700,
@@ -133,7 +135,7 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     letterSpacing: 1.2,
     marginBottom: 8,
-    marginTop: 16,
+    marginTop: 0,
     borderBottom: `1px solid ${c.border}`,
     paddingBottom: 4,
   },
@@ -293,16 +295,16 @@ export function CVTemplate({ data }: { data: CVData }) {
           <View style={styles.divider} />
 
           {sections.summary.filter(s => s.trim()).length > 0 && (
-            <>
+            <View style={styles.sectionWrapper} wrap={false}>
               <Text style={styles.sectionTitle}>Profile</Text>
               {sections.summary.filter(s => s.trim()).map((s, i) => (
                 <Text key={i} style={styles.summaryText}>{s}</Text>
               ))}
-            </>
+            </View>
           )}
 
           {sections.experience.filter(e => e.company || e.position).length > 0 && (
-            <>
+            <View style={styles.sectionWrapper} wrap={false}>
               <Text style={styles.sectionTitle}>Experience</Text>
               {sections.experience.filter(e => e.company || e.position).map((exp, i) => (
                 <View key={i} style={styles.expBlock} wrap={false}>
@@ -325,11 +327,11 @@ export function CVTemplate({ data }: { data: CVData }) {
                   )}
                 </View>
               ))}
-            </>
+            </View>
           )}
 
           {sections.education.filter(e => e.institution).length > 0 && (
-            <>
+            <View style={styles.sectionWrapper} wrap={false}>
               <Text style={styles.sectionTitle}>Education</Text>
               {sections.education.filter(e => e.institution).map((edu, i) => (
                 <View key={i} style={styles.eduBlock} wrap={false}>
@@ -345,11 +347,11 @@ export function CVTemplate({ data }: { data: CVData }) {
                   </View>
                 </View>
               ))}
-            </>
+            </View>
           )}
 
           {sections.extra_curricular_activities.filter(a => a.name).length > 0 && (
-            <>
+            <View style={styles.sectionWrapper} wrap={false}>
               <Text style={styles.sectionTitle}>Activities</Text>
               {sections.extra_curricular_activities.filter(a => a.name).map((act, i) => (
                 <View key={i} style={styles.activityBlock} wrap={false}>
@@ -366,16 +368,16 @@ export function CVTemplate({ data }: { data: CVData }) {
                   )}
                 </View>
               ))}
-            </>
+            </View>
           )}
 
           {sections.hobbies.filter(h => h.bullet.trim()).length > 0 && (
-            <>
+            <View style={styles.sectionWrapper} wrap={false}>
               <Text style={styles.sectionTitle}>Interests</Text>
               {sections.hobbies.filter(h => h.bullet.trim()).map((h, i) => (
                 <Text key={i} style={styles.hobbyText}>• {h.bullet}</Text>
               ))}
-            </>
+            </View>
           )}
         </View>
       </Page>

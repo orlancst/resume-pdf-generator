@@ -1,4 +1,4 @@
-import { Briefcase, GraduationCap, Wrench, Heart, Share2, Award, FileText, Save, Loader } from 'lucide-react';
+import { Briefcase, GraduationCap, Wrench, Heart, Share2, Award, FileText, Save, Loader, FileDown } from 'lucide-react';
 import type { CVData } from '../../types/cv';
 import { FileSelector } from './FileSelector';
 import { ProfilePictureUpload } from './ProfilePictureUpload';
@@ -44,10 +44,19 @@ export function LeftPanel({ files, activeFile, data, isDirty, saving, saveSucces
           <h1 className="text-lg font-bold text-gray-800">CV Generator</h1>
           <p className="text-xs text-gray-500 mt-0.5">Edit your resume in real time</p>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-1.5">
           {saveSuccess && (
             <span className="text-xs text-green-600 font-medium">Saved!</span>
           )}
+          <a
+            href="/api/download-template"
+            download
+            className="flex items-center gap-1 rounded-lg border border-gray-200 px-2.5 py-1.5 text-xs font-medium text-gray-600 hover:bg-gray-50 transition-colors"
+            title="Download sample template"
+          >
+            <FileDown size={14} />
+            Template
+          </a>
           <button
             onClick={onSave}
             disabled={saving || !isDirty}
