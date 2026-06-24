@@ -1,0 +1,134 @@
+cv:
+  name: Orlando De Jesús Castro Castro
+  headline: Frontend Developer
+  location: Barranquilla, Colombia
+  email: orlancst@gmail.com
+  phone: +57 3008721501
+  sections:
+    summary:
+      - >-
+        Passionate Web Developer and CMS Designer with expertise in creating dynamic, user-focused websites using
+        WordPress and React. Experienced in integrating technologies like Node.js, MySQL, and Astro to craft seamless
+        frontend and backend solutions. Driven by professional growth and innovation with a strong foundation in both
+        development and design.
+    experience:
+      - company: Parker Randall Colombia
+        position: Frontend / Dashboard Developer
+        start_date: 2026-02
+        end_date: present
+        location: null
+        highlights:
+          - >-
+            Developed and optimized interactive web dashboards for electronic invoicing software, significantly
+            improving data visualization and user experience.
+          - >-
+            Leveraged advanced AI tools, including Claude AI, to accelerate the development lifecycle, streamline code
+            drafting, and debug complex data structures.
+          - >-
+            Collaborated on building scalable fintech solutions, ensuring seamless integration of real-time billing
+            metrics and financial reports.
+      - company: Virtual-Tec
+        position: Mobile Developer
+        location: Barranquilla, Colombia
+        start_date: 2025-01
+        end_date: 2026-02
+        highlights:
+          - >-
+            Developed mobile and web applications using the FlutterFlow platform, integrating real-time services via
+            Firebase.
+          - Implemented custom functions using Python and Node.js to address business needs and optimize backend logic.
+      - company: MCA Systems
+        position: Web Developer
+        location: Barranquilla, Colombia
+        start_date: 2023-12
+        end_date: 2025-01
+        highlights:
+          - >-
+            Developed and managed websites using CMS tools like WordPress with Elementor and WPBakery, integrating HTML,
+            CSS, JavaScript, and PHP.
+          - >-
+            Built dynamic websites with user management systems, including login sessions, CRUD functionality, and
+            report generation.
+          - Created interactive web components and applications using React and Astro.
+          - Managed hosting services and implemented website performance improvements.
+      - company: Proyección Humana Internacional SAS
+        position: Systems Analyst
+        location: Barranquilla, Colombia
+        start_date: 2022-01
+        end_date: 2023-12
+        highlights:
+          - >-
+            Integrated technical considerations into design plans, addressing budgets, performance, accessibility, and
+            privacy standards.
+          - >-
+            Managed multi-line website hosting services and used WordPress with low-code solutions for custom plugin
+            configurations.
+          - Connected websites to payment gateways like PayU and PayPal for seamless transactions.
+          - Developed database-driven forms and reports using native PHP and managed databases with MySQL.
+      - company: Whitehub SAS
+        position: Web Designer and CMS Developer
+        location: Barranquilla, Colombia
+        start_date: 2020-10
+        end_date: 2022-02
+        highlights:
+          - Managed website hosting, domains, DNS configurations, and email accounts using cPanel, GoDaddy, and Zoho.
+          - >-
+            Built and maintained WordPress websites using visual builders like Divi and Elementor, and configured
+            WooCommerce for e-commerce.
+          - Improved website performance using PageSpeed Insights and analyzed site metrics with Google Analytics.
+          - Implemented application integrations using Zapier and configured push notifications with OneSignal.
+      - company: Tienda Medallo 2000
+        position: Cashier and Delivery Assistant
+        location: Barranquilla, Colombia
+        start_date: 2014-01
+        end_date: 2020-12
+        highlights:
+          - Managed customer service and logistics, ensuring smooth operations in a family business.
+    education:
+      - institution: Institución Universitaria de Barranquilla
+        area: Telematics Engineering
+        degree: BEng
+        date: 2024-08
+        location: Barranquilla, Colombia
+      - institution: Institución Universitaria ITSA
+        area: Maintenance and Repair of IT Systems
+        degree: AAS
+        date: 2022-08
+        location: Barranquilla, Colombia
+      - institution: Institución Universitaria ITSA
+        area: IT Systems
+        degree: Cert
+        date: 2021-05
+        location: Barranquilla, Colombia
+      - institution: SENA Colombia
+        area: Data Network Management
+        degree: AAS
+        date: 2018-11
+        location: Barranquilla, Colombia
+      - institution: Universidad del Atlántico
+        area: Foreign Languages (English Level VI)
+        degree: Cert
+        date: 2018-11
+        location: Barranquilla, Colombia
+    skills:
+      - label: Web Development
+        details: WordPress, React, JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, PHP, Node.js, Astro
+      - label: Tools & Platforms
+        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL
+      - label: Languages
+        details: Spanish (Native), English (Professional)
+    extra_curricular_activities:
+      - name: Freelance Translator
+        date: 2019-12
+        highlights:
+          - Translated technical documents and medical reports for various clients.
+    hobbies:
+      - bullet: I enjoy going to gym, listening to music and podcasts, programming, and playing video games.
+  photo: /uploads/photo-1782271022700.jpeg
+  social_networks:
+    - network: GitHub
+      username: orlancst
+    - network: LinkedIn
+      username: |+
+        orlan-castro
+
