@@ -1,0 +1,150 @@
+cv:
+  name: Orlando De Jesús Castro Castro
+  headline: Desarrollador Frontend
+  location: Barranquilla, Colombia
+  email: orlancst@gmail.com
+  phone: +57 3008721501
+  sections:
+    summary:
+      - >-
+        Desarrollador web y diseñador de CMS apasionado, con experiencia en la creación de sitios web dinámicos y
+        centrados en el usuario utilizando WordPress y React. Cuento con experiencia en la integración de tecnologías
+        como Node.js, MySQL y Astro para crear soluciones fluidas tanto de front-end como de back-end. Me mueve el
+        crecimiento profesional y la innovación, y cuento con una sólida base tanto en desarrollo como en diseño.
+        Además, estoy abierto a descubrir y aprender nuevas tecnologías.
+    experience:
+      - company: Parker Randall Colombia
+        position: Frontend / Dashboard Developer
+        start_date: 2026-02
+        end_date: 2026-08
+        location: Remoto (Barranquilla, Colombia)
+        highlights:
+          - >-
+            Desarrollé y optimicé paneles de control web interactivos para un software de facturación electrónica, lo
+            que mejoró considerablemente la visualización de los datos y la experiencia del usuario.
+          - >-
+            Aproveché herramientas avanzadas de inteligencia artificial, entre ellas Claude AI, para acelerar el ciclo
+            de vida del desarrollo, agilizar la redacción del código y depurar estructuras de datos complejas.
+          - >-
+            Colaboré en el desarrollo de soluciones de tecnología financiera escalables, garantizando una integración
+            perfecta de los indicadores de facturación en tiempo real y los informes financieros.
+      - company: Virtual-Tec
+        position: Desarrollador de apps móviles
+        location: Remoto (Barranquilla, Colombia)
+        start_date: 2025-01
+        end_date: 2026-02
+        highlights:
+          - >-
+            Desarrollé aplicaciones móviles y web utilizando la plataforma FlutterFlow, integrando servicios en tiempo
+            real a través de Firebase.
+          - >-
+            Implementé funciones personalizadas utilizando Python y Node.js para dar respuesta a las necesidades de la
+            empresa y optimizar la lógica del backend.
+      - company: MCA Systems
+        position: Web Developer
+        location: Barranquilla, Colombia
+        start_date: 2023-12
+        end_date: 2025-01
+        highlights:
+          - >-
+            He desarrollado y gestionado sitios web utilizando herramientas de gestión de contenidos (CMS) como
+            WordPress con Elementor y WPBakery, integrando HTML, CSS, JavaScript y PHP.
+          - >-
+            He creado páginas web dinámicas con sistemas de gestión de usuarios, que incluyen sesiones de inicio de
+            sesión, funcionalidad CRUD y generación de informes.
+          - He creado componentes web interactivos y aplicaciones utilizando React y Astro.
+          - Servicios de alojamiento gestionado y mejoras implementadas en el rendimiento de los sitios web.
+      - company: Proyección Humana Internacional SAS
+        position: Analista de Sistemas
+        location: Barranquilla, Colombia
+        start_date: 2022-01
+        end_date: 2023-12
+        highlights:
+          - >-
+            Se han incorporado consideraciones técnicas en los planos de diseño, teniendo en cuenta los presupuestos, el
+            rendimiento, la accesibilidad y las normas de privacidad.
+          - >-
+            Servicios gestionados de alojamiento web multilínea y uso de WordPress con soluciones «low-code» para la
+            configuración personalizada de plugins.
+          - Se han conectado sitios web a pasarelas de pago como PayU y PayPal para facilitar las transacciones.
+          - >-
+            Desarrollé formularios e informes basados en bases de datos utilizando PHP nativo y gestioné bases de datos
+            con MySQL.
+      - company: Whitehub SAS
+        position: Desarrollador CMS y Web
+        location: Barranquilla, Colombia
+        start_date: 2020-10
+        end_date: 2022-02
+        highlights:
+          - >-
+            Gestión de alojamiento web, dominios, configuraciones de DNS y cuentas de correo electrónico mediante
+            cPanel, GoDaddy y Zoho.
+          - >-
+            He creado y mantenido sitios web de WordPress utilizando editores visuales como Divi y Elementor, y he
+            configurado WooCommerce para el comercio electrónico.
+          - >-
+            Mejoré el rendimiento de la página web utilizando PageSpeed Insights y analicé las métricas del sitio con
+            Google Analytics.
+          - >-
+            He implementado integraciones de aplicaciones mediante Zapier y he configurado notificaciones push con
+            OneSignal.
+      - company: Tienda Medallo 2000
+        position: Cajero y repartidor
+        location: Barranquilla, Colombia
+        start_date: 2014-01
+        end_date: 2020-12
+        highlights:
+          - >-
+            Me encargué de la atención al cliente y la logística, garantizando el buen funcionamiento de una empresa
+            familiar.
+    education:
+      - institution: Institución Universitaria de Barranquilla
+        area: Ingenieria Telemática
+        degree: Ingeniero Telemático
+        date: 2024-08
+        location: Barranquilla, Colombia
+      - institution: Institución Universitaria ITSA
+        area: Tecnólogo en Mantiniemiento de Sistemas de Información
+        degree: AAS
+        date: 2022-08
+        location: Barranquilla, Colombia
+      - institution: Institución Universitaria ITSA
+        area: Tecnico en Desarrollo de Sistemas
+        degree: Cert
+        date: 2021-05
+        location: Barranquilla, Colombia
+      - institution: SENA Colombia
+        area: Gestión de Redes de Datos
+        degree: AAS
+        date: 2018-11
+        location: Barranquilla, Colombia
+      - institution: Universidad del Atlántico
+        area: Lenguas extranjeras (Inglés nivel VI)
+        degree: Cert
+        date: 2018-11
+        location: Barranquilla, Colombia
+    skills:
+      - label: Desarrollador web
+        details: WordPress, React, JavaScript, CSS Libraries, Node.js, Astro, AI Tools
+      - label: Herramientas y plataformas
+        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL, Claude Code/Opencode
+      - label: Idiomas
+        details: Español nativo e inglés profesional.
+    extra_curricular_activities:
+      - name: Traductor Freelance
+        date: 2019-12
+        highlights:
+          - He traducido documentos técnicos e informes médicos para diversos clientes.
+    hobbies:
+      - bullet: >-
+          Me gusta escuchar música y podcasts, programar y jugar a videojuegos. A veces también voy al gimnasio por la
+          noche.
+  photo: /uploads/photo-1782271022700.jpeg
+  social_networks:
+    - network: GitHub
+      username: orlancst
+    - network: LinkedIn
+      username: |+
+        orlan-castro
+
+...

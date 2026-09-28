@@ -10,12 +10,12 @@ cv:
         Passionate Web Developer and CMS Designer with expertise in creating dynamic, user-focused websites using
         WordPress and React. Experienced in integrating technologies like Node.js, MySQL, and Astro to craft seamless
         frontend and backend solutions. Driven by professional growth and innovation with a strong foundation in both
-        development and design.
+        development and design. I am also open to discover and learn new technologies.
     experience:
       - company: Parker Randall Colombia
         position: Frontend / Dashboard Developer
         start_date: 2026-02
-        end_date: present
+        end_date: 2026-08
         location: Remote (Barranquilla, Colombia)
         highlights:
           - >-
@@ -112,9 +112,9 @@ cv:
         location: Barranquilla, Colombia
     skills:
       - label: Web Development
-        details: WordPress, React, JavaScript, HTML, CSS, Tailwind CSS, Bootstrap, PHP, Node.js, Astro
+        details: WordPress, React, JavaScript, CSS Libraries, Node.js, Astro, AI Tools
       - label: Tools & Platforms
-        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL, Claude Code
+        details: Git, GitHub, FlutterFlow, Firebase, Zapier, cPanel, GoDaddy, Google Analytics, MySQL, Claude Code/Opencode
       - label: Languages
         details: Spanish (Native), English (Professional)
     extra_curricular_activities:
@@ -134,3 +134,4 @@ cv:
       username: |+
         orlan-castro
 
+...

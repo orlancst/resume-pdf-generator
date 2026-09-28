@@ -1,18 +1,20 @@
 import { useCVData } from './hooks/useCVData';
+import { LanguageProvider, useLanguage } from './i18n';
 import { LeftPanel } from './components/LeftPanel/LeftPanel';
 import { Preview } from './components/RightPanel/Preview';
 
-export default function App() {
+function AppContent() {
   const {
     files, activeFile, data, loading, saving, error, saveSuccess, isDirty,
     updateLocalData, saveToFile, switchFile,
   } = useCVData();
+  const { t } = useLanguage();
 
   if (error) {
     return (
       <div className="h-screen flex items-center justify-center bg-gray-50">
         <div className="text-center">
-          <p className="text-red-500 text-sm font-medium">Error</p>
+          <p className="text-red-500 text-sm font-medium">{t.app.error}</p>
           <p className="text-gray-500 text-xs mt-1">{error}</p>
         </div>
       </div>
@@ -40,5 +42,13 @@ export default function App() {
         <Preview data={data} loading={loading} />
       </div>
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <LanguageProvider>
+      <AppContent />
+    </LanguageProvider>
   );
 }

@@ -1,4 +1,5 @@
 import { Files, Plus } from 'lucide-react';
+import { useLanguage } from '../../i18n';
 
 interface FileSelectorProps {
   files: { name: string; path: string }[];
@@ -7,11 +8,13 @@ interface FileSelectorProps {
 }
 
 export function FileSelector({ files, activeFile, onSelect }: FileSelectorProps) {
+  const { t } = useLanguage();
+
   return (
     <div className="mb-4">
       <label className="flex items-center gap-2 text-sm font-medium text-gray-700 mb-1.5">
         <Files size={16} />
-        CV File
+        {t.leftPanel.cvFile}
       </label>
       <div className="flex gap-2">
         <select
@@ -25,7 +28,7 @@ export function FileSelector({ files, activeFile, onSelect }: FileSelectorProps)
         </select>
         <button
           className="rounded-lg border border-gray-200 bg-white p-2 text-gray-500 hover:bg-gray-50 hover:text-gray-700 transition-colors"
-          title="Add new CV"
+          title={t.leftPanel.addNewCV}
         >
           <Plus size={18} />
         </button>

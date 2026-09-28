@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 import { Camera, Trash2 } from 'lucide-react';
+import { useLanguage } from '../../i18n';
 import { uploadPhoto } from '../../api/cvApi';
 
 interface ProfilePictureUploadProps {
@@ -8,6 +9,7 @@ interface ProfilePictureUploadProps {
 }
 
 export function ProfilePictureUpload({ photoUrl, onPhotoChange }: ProfilePictureUploadProps) {
+  const { t } = useLanguage();
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -27,7 +29,7 @@ export function ProfilePictureUpload({ photoUrl, onPhotoChange }: ProfilePicture
     <div className="flex items-center gap-4 mb-4">
       <div className="relative w-16 h-16 rounded-full overflow-hidden bg-gray-100 border-2 border-gray-200 flex-shrink-0">
         {photoUrl ? (
-          <img src={photoUrl} alt="Profile" className="w-full h-full object-cover" />
+          <img src={photoUrl} alt={t.leftPanel.uploadPhoto} className="w-full h-full object-cover" />
         ) : (
           <div className="w-full h-full flex items-center justify-center text-gray-400">
             <Camera size={24} />
@@ -39,7 +41,7 @@ export function ProfilePictureUpload({ photoUrl, onPhotoChange }: ProfilePicture
           onClick={() => inputRef.current?.click()}
           className="rounded-lg bg-blue-500 px-3 py-1.5 text-xs font-medium text-white hover:bg-blue-600 transition-colors"
         >
-          Upload Photo
+          {t.leftPanel.uploadPhoto}
         </button>
         {photoUrl && (
           <button
